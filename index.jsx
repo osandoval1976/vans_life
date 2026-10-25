@@ -3,10 +3,10 @@ import ReactDOM from 'react-dom/client';
 import { BrowserRouter, Routes, Route, Link } from "react-router-dom"
 import Home from "./pages/Home"
 import About from "./pages/About"
-import Vans from "./pages/Vans"
+import Bans from "./pages/Bans"
 
 import "./server"
-
+  
 function App() {
   return (
     <BrowserRouter>
@@ -20,7 +20,7 @@ function App() {
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/about" element={<About />} />
-        <Route path="/vans" element={<Vans />} />
+        <Route path="/bans" element={<Bans />} />
       </Routes>
     </BrowserRouter>
   )
