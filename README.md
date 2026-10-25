@@ -6,6 +6,14 @@ npm start
 ```
 
 Head over to https://vitejs.dev/ to learn more about configuring vite
+
+## Deploy on Netlify
+
+Connect this repository to Netlify and use the repository root as the base directory.
+The included `netlify.toml` configures `npm run build`, publishes the `dist` directory,
+and redirects application routes to `index.html` so React Router works on direct visits
+and page refreshes.
+
 ## About Scrimba
 
 At Scrimba our goal is to create the best possible coding school at the cost of a gym membership! 💜
