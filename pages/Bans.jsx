@@ -15,8 +15,8 @@ import React from "react"
  */
 
 
-export default function Vans() {
+export default function Bans() {
     return (
-        <h1>Vans page goes here 🚐</h1>
+        <h1>Bans page goes here 🚐</h1>
     )
 }
