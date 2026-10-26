@@ -12,7 +12,7 @@ import {Link, link} from "react-router-dom"
  */
 
 
-export default function Vans() {
+export default function Bans() {
     const [vans, setVans] = React.useState([])
     React.useEffect(() => {
         fetch("/api/vans")
@@ -22,9 +22,9 @@ export default function Vans() {
 
     const vanElements = vans.map(van => (
         <div key={van.id} className="van-tile">
-             to={`/vans/${van.id}`} 
+         <Link    to={`/Bans/${van.id}`} 
                 aria-label={`View details for ${van.name}, 
-                             priced at $${van.price} per day`}
+                             priced at $${van.price} per day`}>
             <img src={van.imageUrl} />
             <div className="van-info">
                 <h3>{van.name}</h3>
