@@ -4,7 +4,7 @@ import { BrowserRouter, Routes, Route, Link } from "react-router-dom"
 import Home from "./pages/Home"
 import About from "./pages/About"
 import Bans from "./pages/Bans"
-
+import BansDetail from "./pages/BansDetail"
 import "./server"
   
 function App() {
