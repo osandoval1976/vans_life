@@ -22,7 +22,7 @@ export default function Bans() {
 
     const vanElements = vans.map(van => (
         <div key={van.id} className="van-tile">
-         <Link    to={`/Bans/${van.id}`} 
+         <Link    to={`/vans/${van.id}`} 
                 aria-label={`View details for ${van.name}, 
                              priced at $${van.price} per day`}>
             <img src={van.imageUrl} />
