@@ -1,7 +1,7 @@
 import React from "react"
 
-export default function Reviews() {
+export default function Income() {
     return (
-        <h1>Reviews page goes here</h1>
+        <h1>Income page goes here</h1>
     )
 }
