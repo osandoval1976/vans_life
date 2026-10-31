@@ -2,7 +2,7 @@
 import React from "react"
 import {useParams} from "react-router-dom"
 
-export default function VanDetail() {
+export default function VansDetail() {
     const params = useParams()
     const [van, setVan] = React.useState(null)
 
